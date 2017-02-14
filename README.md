@@ -1,6 +1,6 @@
 # raspberrypi
 
-![image](http://bbs.elecfans.com/data/attachment/forum/201604/08/102423paxwx43zgg5pay7g.png)
+![image](https://mcuoneclipse.files.wordpress.com/2015/12/rp2_pinout.png)
 
 ## Sensor Info
 
