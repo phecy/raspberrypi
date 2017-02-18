@@ -28,6 +28,19 @@ bottom right
 > echo_pin = 26(BCM) (BOARD)  pin 37
 
 
+top left
+
+> trig_pin = 12(BCM) (BOARD)  pin 32
+> 
+> echo_pin = 16(BCM) (BOARD)  pin 36
+
+
+bottom left 
+
+> trig_pin = 20(BCM) (BOARD)  pin 38
+> 
+> echo_pin = 21(BCM) (BOARD)  pin 40
+
 [https://github.com/alaudet/hcsr04sensor
 ](https://github.com/alaudet/hcsr04sensor)
 
