@@ -18,5 +18,5 @@ while True:
         print("Temperature: %d C" % result.temperature)
         print("Humidity: %d %%" % result.humidity)
     else:
-        print("Error")
+        print("Error %s" % str(result.error_code))
     time.sleep(1)

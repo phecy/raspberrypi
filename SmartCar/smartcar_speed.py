@@ -87,6 +87,7 @@ if __name__ == "__main__":
     smart_car.left()
     time.sleep(0.5)
     smart_car.set_speed(100)
+    #time.sleep(2)
     smart_car.forward()
     time.sleep(2)
     smart_car.backward()

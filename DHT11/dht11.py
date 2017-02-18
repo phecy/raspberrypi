@@ -50,6 +50,7 @@ class DHT11:
 
         # if bit count mismatch, return error (4 byte data + 1 byte checksum)
         if len(pull_up_lengths) != 40:
+            #print( len(pull_up_lengths))
             return DHT11Result(DHT11Result.ERR_MISSING_DATA, 0, 0)
 
         # calculate bits from lengths of the pull up periods
@@ -81,6 +82,7 @@ class DHT11:
         data = []
         while True:
             current = RPi.GPIO.input(self.__pin)
+            #print(current)
             data.append(current)
             if last != current:
                 unchanged_count = 0
