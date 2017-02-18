@@ -15,12 +15,17 @@ right_wheel GPIO: 16, 18 ENB:  22, 29
 
 ### Hc-sr04
 
-right
+top right
 
 > trig_pin = 06(BCM) (BOARD)  pin 31
 > 
 > echo_pin = 13(BCM) (BOARD)  pin 33
 
+bottom right
+
+> trig_pin = 19(BCM) (BOARD)  pin 35
+> 
+> echo_pin = 26(BCM) (BOARD)  pin 37
 [https://github.com/alaudet/hcsr04sensor
 ](https://github.com/alaudet/hcsr04sensor)
 
