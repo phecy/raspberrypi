@@ -51,6 +51,6 @@ bottom left
 
 ### DHT11 (温度湿度)
 
-DHT11 19(BCM)   35 (BOARD)
+DHT11 18(BCM)   12 (BOARD)
 
 
